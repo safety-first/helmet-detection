@@ -7,9 +7,8 @@ import time
 import base64
 import cv2
 
-credentials = pika.PlainCredentials('client_user', 'ezhel_88')
 connection = pika.BlockingConnection(
-    pika.ConnectionParameters(host='ec2-34-244-66-44.eu-west-1.compute.amazonaws.com',credentials=credentials))
+    pika.ConnectionParameters(host=localhost))
 channel = connection.channel()
 print("connected")
 # Used as counter variable 
@@ -18,8 +17,7 @@ count = 0
 # checks whether frames were extracted 
 success = 1
 # init the camera
-# camera = cv2.VideoCapture(0) 
-camera = cv2.VideoCapture('C:/Users/sezgi.sener/Desktop/Deep_learning_Turkiye/keras-yolo3/helmet_video.mp4')  
+camera = cv2.VideoCapture(0)  
 channel.queue_declare(queue='hello')
 while success: 
 		# vidObj object calls read 
