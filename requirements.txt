@@ -8,7 +8,4 @@ numpy
 argparse
 matplotlib
 pika #rabbitmq
-zmq
-random
-time
 base64 #for decode/encoding
