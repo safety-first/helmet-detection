@@ -8,3 +8,4 @@ There are 2 class head, helmet. Helmet detected as helmet+head.
 
 ![alt-text-1](/Darknet/before.jpg "before_detection")![alt-text-2](/Darknet/label.jpg "label")![alt-text-3](/Darknet/after.jpg "after_detection")
 
+Here we see a photo from the dataset, a tagging file and a tagged photo. 0 and 1 denote classes in dataset, for example 0 → helmet 1 → head. The other 4 digits indicate the coordinates of the labeled rectangle.
