@@ -1,0 +1,6 @@
+classes= 2
+train  = /home/ubuntu/darknet/data/helmet/train.txt
+valid  = /home/ubuntu/darknet/data/helmet/test.txt
+names = /home/ubuntu/darknet/data/obj.names
+backup = backup
+
