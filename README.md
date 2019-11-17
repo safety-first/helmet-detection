@@ -5,4 +5,7 @@ According to data from the social security institutions and Turkey (2015) daily 
 Our goal is to eliminate human error and play a role in safety and to create a model that works flawlessly. Thanks to this system that automates occupational safety control, people at risk will be identified instantly.
 ## Dataset
 There are 2 class head, helmet. Helmet detected as helmet+head. 
-![Screenshot](/Darknet/before.jpg)![Screenshot](../Darknet/label.jpg)![Screenshot](../Darknet/after.jpg)
+
+![alt tag](/Darknet/before.jpg)
+![alt tag](/Darknet/label.jpg)
+![alt tag](/Darknet/after.jpg)
